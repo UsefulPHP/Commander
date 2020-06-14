@@ -45,7 +45,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Useful\": "src/"
+      "Useful\\": "src/"
     }
   },
   "autoload-dev": {
