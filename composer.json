@@ -1,0 +1,57 @@
+{
+  "name": "useful/commander",
+  "description": "Useful CLI execution library",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Lauren Black",
+      "email": "lauren@laurenblack.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "useful",
+    "library",
+    "CLI",
+    "command",
+    "commander",
+    "components",
+    "script"
+  ],
+  "homepage": "https://useful.laurenblack.co.uk/",
+  "support": {
+    "docs": "https://useful.laurenblack.co.uk/docs",
+    "issues": "https://github.com/UsefulPHP/Commander/issues",
+    "source": "https://github.com/UsefulPHP/Commander",
+    "rss": "https://github.com/UsefulPHP/Commander/releases.atom"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.4",
+    "useful/lang": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.2.2",
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Useful\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Useful\\Test\\": "test/"
+    }
+  }
+}
+
